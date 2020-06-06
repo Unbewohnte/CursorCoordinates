@@ -3,7 +3,6 @@ import pyautogui as pg
 
 buttonyes = True
 
-#00FA9A
 
 def cursor():
 	coordinates = pg.position()
@@ -25,10 +24,7 @@ root.title('Coordinates')
 root.geometry('600x600')
 canvas = Canvas(root, width=1000, height=1000, bg= '#00FA9A')
 
-
 canvas.pack()
-#Main thing
-
 
 
 label1 = Label(root, text = 'Cursor coordinates ', font=('Arial Bold',30))
