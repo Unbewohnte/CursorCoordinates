@@ -21,7 +21,7 @@ def cursor():
 		labely.place(x = 360 , y = 290)
 
 root = Tk()
-root.title('HOLY ROMAN EMPIRE, THAT`S WORKING NORMALLY')
+root.title('Coordinates')
 root.geometry('600x600')
 canvas = Canvas(root, width=1000, height=1000, bg= '#00FA9A')
 
