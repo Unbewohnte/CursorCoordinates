@@ -38,3 +38,5 @@ button1.place(x = 270, y = 200)
 
 root.mainloop()
 
+# Copyright (c) 2020 Unbewohnte
+
