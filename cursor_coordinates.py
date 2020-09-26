@@ -10,8 +10,6 @@ def cursor():
 	label2.place(x = 220, y = 350, height = 50, width = 165)
 	label2.after(60, cursor)
 	buttonyes = False
-	BigX = False
-	BigY = False
 	if buttonyes == False:
 		button1.destroy()
 		labelx = Label(root, text = 'X', font=('Arial Bold',20)) 
